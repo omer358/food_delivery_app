@@ -1,6 +1,6 @@
 
 
-FoodItemList fooditemList = FoodItemList(foodItems: [
+FoodItemList foodItemList = FoodItemList(foodItems: [
   FoodItem(
     id: 1,
     title: "Beach BBQ Burger",

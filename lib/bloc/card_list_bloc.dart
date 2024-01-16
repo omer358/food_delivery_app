@@ -1,11 +1,12 @@
 import 'dart:async';
+
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:food_delivery_app/bloc/provider.dart';
 import 'package:food_delivery_app/model/food_item.dart';
 import 'package:rxdart/rxdart.dart';
 
-class CardListBloc extends BlocBase {
-  CardListBloc();
+class CartListBloc extends BlocBase {
+  CartListBloc();
 
   var _listController = BehaviorSubject<List<FoodItem>>.seeded([]);
 
